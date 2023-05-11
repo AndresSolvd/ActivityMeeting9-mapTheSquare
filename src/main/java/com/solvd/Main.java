@@ -22,7 +22,7 @@ public class Main {
         int endX = 0;
         int endY = 0;
         int counter = 1;
-        Map<String, Integer> coordinates = new HashMap<>();
+        Map<String, String> coordinates = new HashMap<>();
 
         for (int i = 0; i < myArray.length; i++) {
             for (int j = 0; j < myArray[0].length; j++) {
@@ -37,8 +37,7 @@ public class Main {
                                     endX = i; //3
                                     int width = endY - startY + 1;
                                     int height = endX - startX + 1;
-                                    coordinates.put("Figure " + counter + ": Width", width);
-                                    coordinates.put("Figure " + counter + ": Height", height);
+                                    coordinates.put("Figure " + counter + " (Width - Height)", "(" + width + " - " + height + ")");
                                     counter++;
                                     break;
                                 }
