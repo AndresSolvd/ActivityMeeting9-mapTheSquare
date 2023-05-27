@@ -3,7 +3,7 @@ package com.solvd;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
+public class MapTheSquare {
 
     public static void main(String[] args) {
         int[][] myArray = {
@@ -17,10 +17,10 @@ public class Main {
                 {1, 1, 0, 0, 0, 0, 1},
                 {1, 1, 1, 1, 1, 1, 1}
         };
-        int startX = 0;
-        int startY = 0;
-        int endX = 0;
-        int endY = 0;
+        int startX;
+        int startY;
+        int endX;
+        int endY;
         int counter = 1;
         Map<String, String> coordinates = new HashMap<>();
 

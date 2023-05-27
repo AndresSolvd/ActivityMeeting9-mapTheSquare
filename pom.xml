@@ -63,7 +63,7 @@
                     <manifest>
                         <addClasspath>true</addClasspath>
                         <classpathPrefix>lib/</classpathPrefix>
-                        <mainClass>com.solvd.Main</mainClass>
+                        <mainClass>com.solvd.MapTheSquare</mainClass>
                     </manifest>
                 </archive>
             </configuration>
